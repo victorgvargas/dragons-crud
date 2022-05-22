@@ -1,0 +1,13 @@
+@import 'abstracts/variables';
+
+.round-button {
+    background-color: $primary_color;
+    color: $secondary_color;
+    border-radius: 50%;
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
