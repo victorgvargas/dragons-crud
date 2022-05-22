@@ -1,4 +1,7 @@
+@import 'abstracts/variables';
+
 .body {
     margin: 0 auto;
+    background-color: $background_primary;
 }
 

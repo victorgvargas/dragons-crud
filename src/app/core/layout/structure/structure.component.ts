@@ -1,7 +1,7 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
-  selector: 'app-structure',
+  selector: 'dgn-structure',
   templateUrl: './structure.component.html',
   styleUrls: ['./structure.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
