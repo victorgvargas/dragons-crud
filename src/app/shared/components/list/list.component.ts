@@ -4,7 +4,7 @@ import { DragonsService } from 'src/app/core/services/dragons.service';
 import { Dragon } from '../../models/dragon.model';
 
 @Component({
-  selector: 'app-list',
+  selector: 'dgn-list',
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
