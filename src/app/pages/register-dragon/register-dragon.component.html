@@ -1,1 +1,11 @@
-<p>register-dragon works!</p>
+<section class="form-container">
+    <form #form class="form" [formGroup]="dragonForm" (ngSubmit)="onSubmit()">
+        <label class="form-label" for="name">Dragon name:</label>
+        <input class="form-input" id="name" type="text" formControlName="name" />
+    
+        <label class="form-label" for="type">Dragon type:</label>
+        <input class="form-input" id="type" type="text" formControlName="type" />
+    
+        <button type="submit" class="form-submit-btn">Create</button>
+    </form>
+</section>
